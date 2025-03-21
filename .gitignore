@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# But not these files...
+
+# git related
+!/.gitignore
+
+# go files
+!*.go
+!go.sum
+!go.mod
+
+
+# Text files
+!README.md
+!LICENSE
+
+# Makefile
+!Makefile
+
+# ...even if they are in subdirectories
+!*/
